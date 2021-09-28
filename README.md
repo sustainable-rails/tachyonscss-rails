@@ -1,7 +1,5 @@
 # tachyonscss-rails - Use Tachyons in a Rails App without NPM Modules
 
-[![<sustainable-rails>](https://circleci.com/gh/sustainable-rails/tachyonscss-rails.svg?style=shield)](https://app.circleci.com/pipelines/github/sustainable-rails/tachyonscss-rails)
-
 Rails 7 has brought the Asset Pipeline back into the spotlight, which means that bundling CSS without NPM requires gems.  This
 gem allows you to use [Tachyons](https://tachyons.io) without having to set up a JS bundler in your Rails 7 app.
 
