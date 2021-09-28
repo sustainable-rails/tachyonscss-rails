@@ -4,7 +4,7 @@ require "bundler/gem_tasks"
 
 THIS_GEM_ROOT = Pathname(__FILE__).dirname.expand_path
 
-task :default => [ :update_tachyons, :spec ]
+task :default => [ :update_tachyons ]
 
 include FileUtils
 

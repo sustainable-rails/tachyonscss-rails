@@ -16,13 +16,7 @@ Gem::Specification.new do |spec|
   spec.metadata["changelog_uri"] = "https://github.com/sustainable-rails/tachyonscss-rails/releases"
 
   spec.files = Dir["{app,lib}/**/*", "LICENSE.md", "Rakefile", "README.md"]
-  puts spec.files
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency("rspec")
-  spec.add_development_dependency("minitest")
-  spec.add_development_dependency("capybara")
-  spec.add_development_dependency("rspec_junit_formatter")
 end
