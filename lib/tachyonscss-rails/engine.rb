@@ -1,4 +1,3 @@
-puts "ENGINE"
 module TachyonscssRails
   class Engine < ::Rails::Engine
     initializer "tachyonscss.assets" do
