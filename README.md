@@ -39,4 +39,9 @@ The most common way to use this is:
 Basically, this gem makes it so you can `@import "tachyons";` and it will build the CSS file from the contents of the
 [tachyons-sass](https://github.com/tachyons-css/tachyons-sass) module that this gem wraps.
 
+## Versions
 
+The version of this gem matches the version of tachyons it bundles, except that it's possible for this gem to bundle
+an unreleased version of Tachyons.  In that case, the gem will use a fourth number, for example `4.9.0.1` would
+indicate that this is the first release beyond `4.9.0` to include Tachyons code added to its main branch since `4.9.0`
+was released.
