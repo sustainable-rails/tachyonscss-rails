@@ -1,4 +1,3 @@
-puts "REQUIRED"
 module TachyonscssRails
 end
 
